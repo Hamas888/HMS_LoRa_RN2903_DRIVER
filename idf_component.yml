@@ -1,0 +1,32 @@
+name: "HMS_LoRa_RN2903_DRIVER"
+version: "1.0.0"
+
+description: >
+  Driver for the HMS LoRa RN2903 module.
+  Provides an interface for communication with the RN2903 over UART.
+  Works on ESP-IDF, STM32 HAL, Arduino, and Linux/Windows.
+
+url: "https://github.com/Hamas888/HMS_LoRa_RN2903_DRIVER"
+repository: "https://github.com/Hamas888/HMS_LoRa_RN2903_DRIVER.git"
+issues: "https://github.com/Hamas888/HMS_LoRa_RN2903_DRIVER/issues"
+
+maintainers:
+  - "Hamas Saeed <hamasaeed888@gmail.com>"
+
+license: "MIT"
+
+dependencies:
+  idf: ">=5.0"
+
+tags:
+  - LoRa
+  - RN2903
+  - Driver
+  - Embedded
+  - ESP-IDF
+  - STM32
+  - Arduino
+  - UART
+  - Wireless
+  - Communication
+  - IoT

@@ -1,0 +1,61 @@
+{
+  "name": "HMS_LoRa_RN2903_DRIVER",
+  "version": "1.0.0",
+  "description": "Driver for the HMS LoRa RN2903 module. Provides an interface for communication with the RN2903 over UART.",
+  "keywords": [
+    "LoRa",
+    "RN2903",
+    "Driver",
+    "Embedded",
+    "ESP-IDF",
+    "STM32",
+    "Arduino",
+    "UART",
+    "Wireless",
+    "Communication",
+    "IoT"
+  ],
+  "authors": [
+    {
+      "name": "Hamas Saeed",
+      "email": "hamasaeed888@gmail.com",
+      "url": "https://github.com/Hamas888",
+      "maintainer": true
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hamas888/HMS_LoRa_RN2903_DRIVER.git"
+  },
+  "frameworks": ["arduino", "espidf"],
+  "platforms": ["atmelavr","espressif32", "ststm32", "nordicnrf52"],
+  "build": {
+    "flags": [
+      "-std=gnu++17"
+    ],
+    "unflags": [
+      "-std=gnu++11"
+    ]
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Hamas888/HMS_LoRa_RN2903_DRIVER",
+  "examples": [
+    "examples"
+  ],
+  "export": {
+    "include": [
+      "src",
+      "include",
+      "examples",
+      "CMakeLists.txt",
+      "library.json",
+      "LICENSE",
+      "README.md"
+    ],
+    "exclude": [
+      "test",
+      ".pio",
+      ".vscode"
+    ]
+  }
+}
